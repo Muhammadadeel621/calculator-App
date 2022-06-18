@@ -1,3 +1,4 @@
+import 'package:calculator/widgettest.dart';
 import 'package:flutter/material.dart';
 
 import 'calculator.dart';
@@ -12,9 +13,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      theme: ThemeData(appBarTheme: AppBarTheme(color: Colors.amberAccent)),
-      home: Calculator(),
-    );
+        debugShowCheckedModeBanner: false,
+        theme: ThemeData(appBarTheme: AppBarTheme(color: Colors.amberAccent)),
+        home:
+            // Calculator(),
+            check());
   }
 }
