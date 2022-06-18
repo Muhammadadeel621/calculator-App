@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:math_expressions/math_expressions.dart';
 
-class check_Calculation extends StatefulWidget {
-  const check_Calculation({Key? key}) : super(key: key);
+class check extends StatefulWidget {
+  const check({Key? key}) : super(key: key);
 
   @override
   State<check> createState() => _checkState();
@@ -102,7 +102,7 @@ class _checkState extends State<check> {
                 buttonwidget("7"),
                 buttonwidget("8"),
                 buttonwidget("9"),
-                buttonwidget("x"),
+                buttonwidget("*"),
               ],
             ),
             SizedBox(
